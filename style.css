@@ -1,0 +1,49 @@
+.nav-link{
+    color: rgb(243, 240, 240);
+}
+
+.rect2{
+    object-fit: cover;
+}
+
+.navbar-toggler{
+    background-color: white;
+}
+
+.backwhite{
+    background-color: white;
+}
+
+.my_container1{
+    margin-top: 7rem;
+    margin-bottom: 2rem;
+
+}
+.para{
+    margin-top: 2rem;
+}
+.parabottom{
+    margin-bottom: 4rem;
+}
+
+.expertise_pic{
+    margin-top: 1rem;
+}
+
+.backgrey{
+    background-color: #F4F4F4;
+    ;
+}
+
+.expanded-image {
+    height: 350px;
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    .expanded-image {
+        position: absolute;
+        left: 0;
+        top: -115px;
+    }
+}
