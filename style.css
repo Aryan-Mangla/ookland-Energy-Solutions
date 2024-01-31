@@ -47,3 +47,21 @@
         top: -115px;
     }
 }
+.contact-img-height{
+    height: 22.813rem;
+}
+
+@media (min-width:1400px) {
+    .img-fluid{
+        height: 30rem;
+    }
+}
+
+@media  (min-width: 771px) and (max-width: 1200px) {
+    
+    .img-fluid{
+        height: 20rem;
+      
+    }
+  }
+  
