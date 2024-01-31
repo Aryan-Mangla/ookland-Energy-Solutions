@@ -1,5 +1,5 @@
 # ookland-Energy-Project
 
-    <p>Front End Programmer- Aryan Mangla</p>
+    <h1>Front End Programmer- Aryan Mangla</h1>
     
 
