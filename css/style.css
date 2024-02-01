@@ -1,0 +1,49 @@
+:root {
+    --bs-light: #F4F4F4;
+    --bs-light-rgb: 244, 244, 244;
+}
+
+a {
+    text-decoration: none;
+}
+
+.hero-img {
+    max-height: 100vh;
+    width: 100%;
+    object-fit: cover;
+}
+
+.navbar-nav {
+    gap: 1rem;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.offcanvas.show .nav-link:not(.active) {
+    color: #FFFFFF;
+}
+
+.navbar-light .nav-link.active {
+    background-color: #FFFFFF;
+}
+
+.navbar-dark .nav-link.active {
+    background-color: var(--bs-secondary);
+}
+
+@media screen and (min-width: 768px) {
+    .navbar-hero {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+
+    .lifted-img {
+        position: relative;
+        top: -115px;
+    }
+}
